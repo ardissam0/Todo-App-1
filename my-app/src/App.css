@@ -1,14 +1,24 @@
 /* styled components to create line-through on completed and made it pretty */
-
+body {
+  background-color: black;
+}
 .App {
   background-color: white;
-  border: 10px solid black;
+  border: 10px solid white;
   margin-left: 28%;
   margin-right: 28%;
   width: 40%;
   min-height: 400px;
   padding: 30px;
-  margin-top: 3%;
+  margin-top: 10%;
+}
+
+@media(max-width: 600px) {
+  .App {
+    width: 88%;
+    height: 88%;
+    margin: 5%;
+  }
 }
 
 p {
